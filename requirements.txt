@@ -1,4 +1,3 @@
 streamlit
 spacy
 pip install altair==4.1.0
-python -m spacy download en_core_web_sm
