@@ -2,8 +2,8 @@ import streamlit as st
 import spacy
 
 # Load the English language model
-nlp = spacy.load("en_core_web_trf")
-# nlp = spacy.load("en_core_web_sm")
+# nlp = spacy.load("en_core_web_trf")
+nlp = spacy.load("en_core_web_sm")
 
 
 def analyze_resume(resume_text,keywords):
